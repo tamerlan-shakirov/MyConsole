@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7f4637cf8afefa49a5ea0c6c3b49322, type: 3}
+  m_Name: ConsoleSettings
+  m_EditorClassIdentifier: 
+  title: MyConsole
+  showLogTime: 1
+  logTimeFormat: '[hh:mm:ss]'
+  infoStyle: {fileID: 11400000, guid: b704506bd77934245b5a94964d020cf3, type: 2}
+  warningStyle: {fileID: 11400000, guid: 09db5084dc606e442b46b54a18f09faf, type: 2}
+  errorStyle: {fileID: 11400000, guid: 2fd6bc055a856cf40a79c58b91ef2a29, type: 2}
+  assertStyle: {fileID: 11400000, guid: f6df057e3b9f854499f2b7005c6e6830, type: 2}
+  exceptionStyle: {fileID: 11400000, guid: dc896316ecb37d347a1f8572ecdb383b, type: 2}
+  logEvenStyle: CN EntryBackEven
+  logOddStyle: CN EntryBackodd
+  stackTraceStyle: CN Message
+  collapseCountStyle: CN CountBadge
+  consoleExporter:
+    infoFilter: -1
+    separator: ----------------------------
