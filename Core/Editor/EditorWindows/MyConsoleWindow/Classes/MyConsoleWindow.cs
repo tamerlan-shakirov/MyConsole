@@ -744,7 +744,7 @@ namespace RenownedGames.MyConsoleEditor
         /// <summary>
         /// Open MyConsole editor window.
         /// </summary>
-        [MenuItem("Renowned Games/MyConsole/MyConsole Window", false, 100)]
+        [MenuItem("Renowned Games/MyConsole/MyConsole Window", false, 90)]
         public static void Open()
         {
             if (!HasOpenInstances<MyConsoleWindow>())
@@ -761,12 +761,6 @@ namespace RenownedGames.MyConsoleEditor
             else
             {
                 FocusWindowIfItsOpen<MyConsoleWindow>();
-
-                Debug.Log("Message 1");
-                Debug.LogWarning("Message 2");
-                Debug.LogError("Message 3");
-                Debug.LogAssertion("Message 4");
-                Debug.LogException(new UnityException("Message 5"));
             }
 
         }
