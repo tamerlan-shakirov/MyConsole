@@ -29,7 +29,7 @@ namespace RenownedGames.MyConsoleEditor
         /// </summary>
         protected override void InitializeVersion(out string version)
         {
-            version = "Version: 2.0.0";
+            version = "Version: 2.0.1";
         }
 
         /// <summary>
@@ -50,8 +50,8 @@ namespace RenownedGames.MyConsoleEditor
         public override void InitializeLogotype(out Texture2D texture, out float width, out float height)
         {
             texture = EditorResources.Load<Texture2D>("Images/Logotype/MyConsole_420x280.png");
-            width = 140;
-            height = 93.5f;
+            width = 168.0f;
+            height = 112.0f;
         }
 
         /// <summary>
@@ -70,10 +70,10 @@ namespace RenownedGames.MyConsoleEditor
             url = "https://assetstore.unity.com/publishers/26774";
         }
 
-        [MenuItem("Renowned Games/MyConsole/About", false, 80)]
+        [MenuItem("Renowned Games/MyConsole/About", false, 60)]
         public static void Open()
         {
-            Open<MyConsoleAboutWindow>(new GUIContent("MyConsole"), new Vector2(450, 150));
+            Open<MyConsoleAboutWindow>(new GUIContent("MyConsole"), new Vector2(470, 170));
         }
 
     }
